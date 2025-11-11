@@ -1,16 +1,20 @@
-# React + Vite
+# ImageFinder
+![imagefinderwebsite](https://media.discordapp.net/attachments/887887430475186176/908555837960773672/unknown.png?width=1341&height=864)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## About
+ImageFinder is a simple web app that lets users search for stock photos, similar to sites like Pixabay or Unsplash.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It utilizes the Pixabay API to find photos.
 
-## React Compiler
+The goal of this project was to practice working with API data, responsive UI design, and search functionality in a modern front-end environment.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+🔍 Search for images by keyword (e.g., “mountains,” “cats,” “cityscape”)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🖼️ Displays image results with tags
+
+## Live Site
+
+https://image-finder-site.netlify.app/
